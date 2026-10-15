@@ -1,6 +1,6 @@
 ## Q5 — HTML corrections
 
-File: q5.html
+File: index.html
 Image used: test.jpeg
 Validator: https://validator.w3.org/ (result: 0 errors after corrections)
 
