@@ -1,10 +1,10 @@
-## Q5 — HTML corrections
+# BCM Assessment Q5
 
 File: index.html
 Image used: test.jpeg
 Validator: https://validator.w3.org/ (result: 0 errors after corrections)
 
-### Actual HTML5 validity errors
+## Actual HTML5 validity errors
 
 1. `</html>` appeared before `<body>`. The closing `</html>` tag ends the document, so everything else must be inside it. I moved it to the very end.
 
@@ -20,14 +20,14 @@ Validator: https://validator.w3.org/ (result: 0 errors after corrections)
 
 7. The original had no `<!DOCTYPE html>`. Added the HTML5 doctype at the top.
 
-### Accessibility and style improvements
+## Accessibility and style improvements
 
 - Missing `lang` attribute on `<html>`. Added `lang="en"`.
 - Image had no `alt` attribute. Added a descriptive one.
 - `<button>` had no `type`. Added `type="button"` to prevent unintended form submission behaviour.
 - Content was not wrapped in a semantic landmark. Added `<main>` around the page content.
 
-### Five HTML-only improvements for search and interpretation
+## Five HTML-only improvements for search and interpretation
 
 1. **`<html lang="en">`** — tells browsers and assistive technology what language the page is in. Screen readers use it for correct pronunciation and search engines use it for language targeting.
 
@@ -39,6 +39,6 @@ Validator: https://validator.w3.org/ (result: 0 errors after corrections)
 
 5. **Descriptive `<title>`** — the title is the primary signal in search results and in the browser tab. The original "Example" gave no context. The new title describes the page.
 
-### Validation
+## Validation
 
 Ran the corrected file through https://validator.w3.org/. Result: 0 errors, 0 warnings.
